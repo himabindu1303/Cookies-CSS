@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ENPmlh3mwYCsp81Hw9ZSLsE9aEa8TnmOtA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    background-color: beige; 
+    position: fixed;     
+    top: 0;   
+    width: 100vw;
+    height: 13vh;
+}
+h1{
+    margin-left: 30px;
+    font-style: italic;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.h11{
+    font-size: 30px;
+}
+.h12{
+    margin-left: 800px;
+}
+
+.parentA{
+    display: flex;
+    flex-wrap: wrap;
+}
+.A{
+    background-color: lightcyan;
+    width: 750px;
+    height: 750px;
+}
+.A img{
+    width: 100%;
+    height: 100%;
+}
+
+.AA{
+    background-color: rgb(206, 234, 251);
+    width: 750px;
+    height: 750px;
+}
+.AA > h1{
+    margin-top: 100px;
+    margin-left: 50px;            
+}
+.AA > p , .AA > img{
+    margin-left: 50px;
+}
+.AA > img{
+    float: left;
+}
+.AAgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 150px 1fr;
+}
+.AAgrid1, .AAgrid3{
+    margin-left: 60px;
+}
+.AAgrid3 input{
+    padding: 10px;
+    background-color: lightseagreen;
+}
+.AAgrid + p{
+    margin-top: 50px;
+}
+
+.parentB{
+    background-color: rgb(189, 249, 189);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin-top: 25rem;
+}
+.B{
+    margin-left: 50px;
+}
+.B > h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+}
+.BB > img{
+    margin: 50px 100px;
+}
+
+.parentC{
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+}
+.parentC > h1{
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: normal;
+}
+.parentC > p{
+    text-align: center;
+}
+
+.Cflex{    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Cx{
+    width: 300px;
+    height: 300px;
+}
+.Cx img{
+    width: 80%;
+    height: 65%;
+    transition: 2s ease;
+    position: relative;
+    z-index: 2;
+}
+.Cx img:hover{
+    content: url(https://www.sirimillet.org.in/wp-content/uploads/2022/05/millet-butter-cookiesone.webp);
+    transform: translateY(-30px);
+}
+.Cx .img-bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Cx button:hover{
+    background-color: black;
+    color: white;
+}
+.hr1, .hr2{
+    background-color: black;
+    height: 3px;
+    z-index: 1;
+    position: relative;
+    margin: 0px 100px;
+}
+.hr1{
+    top: 210px;
+}
+.hr2{
+    top: -150px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+.footer-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.social-links a{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
